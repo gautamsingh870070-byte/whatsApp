@@ -1,0 +1,43 @@
+echo "# whatsApp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gautamsingh870070-byte/whatsApp.git
+git push -u origin main
+
+
+1. Check current branch
+git branch
+
+
+2. Switch to main
+git checkout main
+
+
+3. Get latest code
+git pull origin main
+
+
+4. Create a feature branch
+git checkout -b feature/whatsapp
+
+
+5. Add your code
+git add .
+
+
+6. Commit changes
+git commit -m "Update WhatsApp functionality"
+
+
+7. Push branch to GitHub
+git push -u origin feature/whatsapp
+
+
+8. Create Pull Request
+
+Open GitHub → Pull Requests → New Pull Request.
+- Base: main
+- Compare: feature/whatsapp
+- Click Create pull request.
